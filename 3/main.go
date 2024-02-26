@@ -1,5 +1,7 @@
 package main
 
+// Time Complexity: O(N)
+// Space Complexity: O(min(M,N))
 func lengthOfLongestSubstring(s string) int {
 	if len(s) <= 1 {
 		return len(s)
