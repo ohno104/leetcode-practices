@@ -2,7 +2,6 @@ package main
 
 // Time Complexity: O(N)
 // Space Complexity: O(1)
-
 func minSubArrayLen(target int, nums []int) int {
 	sum := 0
 	start := 0
