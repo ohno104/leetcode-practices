@@ -1,7 +1,7 @@
 package main
 
 // Time Complexity: O(N)
-// Space Complexity: O(1)
+// Space Complexity: O(N)
 func sortedSquares(nums []int) []int {
 	n := len(nums)
 	i, j, k := 0, n-1, n-1
